@@ -5,7 +5,7 @@ var stemmer = natural.PorterStemmer;
 var analyzer = new Analyzer("English", stemmer, "afinn");
 
 // getSentiment expects an array of strings
-console.log(analyzer.getSentiment(["african americans", "and", "blacks", "have", "good", "cuisine" ]));
+console.log(analyzer.getSentiment(["african americans", "and", "black people", "have", "fire", "cuisine" ]));
 
 
 

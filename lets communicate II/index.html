@@ -10,9 +10,10 @@
       <div class="option-div one">
         <p>Hey guys, let's grab a brown bag</p>
         <input type="text" id="user-string-A" value="" />
-        <button class="btn btn-default" id="callbackA">
+        <button class="btn btn-default" id="callbackA" onclick="myFunction()">
           Rewrite sentence
         </button>
+        
         <!-- <hr /> -->
         <!-- <div class="content-div" id="userInput">..</div> -->
       </div>
@@ -93,11 +94,18 @@
       <h1>Step 2: Machine analysis user's input and highlight words that are still bad </h1>
     <div class="outer-wrapper">
       <!-- for option one -->
-      <div class="option-div one">
+      <div class="option-div one" >
         <!-- <input type="text" id="user-string-A" value="" /> -->
-        <p>User Input</p>
+        <p id="myDiv1"> Hey , let's grab lunch</p>
         <hr />
-        <div class="content-div" id="userInput">..</div>
+        <div class="content-div" id="userInput">Hey y'all, let's grab lunch</div>
+      </div>
+
+      <div class="option-div one" id="myDiv2">
+        <!-- <input type="text" id="user-string-A" value="" /> -->
+        <p>Hey <mark>guys</mark>, let's grab lunch</p>
+        <hr />
+        <div class="content-div" id="userInput">Hey y'all, let's grab lunch</div>
       </div>
         <!-- option two -->
       <div class="option-div two">
@@ -129,9 +137,7 @@
           
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="js/callbackOptionCART451.js"></script>
-    <script src="js/promiseOptionCART451.js"></script>
-    <script src="js/promiseOption_FILES_CART451.js"></script>
-    <script src="js/asynchOptionCART451.js"></script>
+    <script src="main.js"></script>
+   
   </body>
 </html>

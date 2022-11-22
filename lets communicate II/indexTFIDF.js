@@ -12,7 +12,7 @@ let tfIDF = new TFIDF();
 loadSamples();
 
 function loadSamples() {
-    let filenames = ['sentences.txt'];
+    let filenames = ['triggerwords.json'];
   
     for (let i = 0; i < filenames.length; i++) {
         getTermFreq(filenames[i]);
@@ -28,12 +28,12 @@ function loadSamples() {
 }
 
   function getDocFreq(filename) {
-    let data =  fs.readFileSync('files/' + filename, 'utf8');
+    let data =  fs.readFileSync(filename, 'utf8');
      tfIDF.docFreq(data);
  }
 
   function getTermFreq(filename) {
-   let data =  fs.readFileSync('files/' + filename, 'utf8');
+   let data =  fs.readFileSync(  filename, 'utf8');
     tfIDF.termFreq(data);
 }
 
