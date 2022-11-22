@@ -1,3 +1,5 @@
+// i want to count how many non inclusive words were written 
+
 class WordCount{
     constructor() {
       //going to keep track of which words were found and how many
@@ -25,7 +27,7 @@ class WordCount{
   // Process new text
   process(data) {
     let tokens = this.split(data);
-   // console.log(tokens);
+   console.log(tokens);
     // For every token
     for (let i = 0; i < tokens.length; i++) {
       // Lowercase everything to ignore case
@@ -76,7 +78,7 @@ class WordCount{
 
   //Sort array of keys by counts
 sortByCount() {
-    // A fancy way to sort each element
+    // A fancy way to sor t each element
     // Compare the counts
         // For this function to work for sorting, we
     // to store a reference to this so the context is not lost!

@@ -13,7 +13,7 @@ let WordCount= require('./wordCount');
 let fs = require('fs');
 
 // And we'll look at all files in the jane austen directory
-let file = fs.readFileSync('files/cat.txt', 'utf8');
+let file = fs.readFileSync('files/sentences.txt', 'utf8');
 //console.log(file);
 
 
@@ -24,3 +24,4 @@ let wordCount = new WordCount();
 wordCount.process(file);
 wordCount.sortByCount();
 wordCount.logTheDict();
+

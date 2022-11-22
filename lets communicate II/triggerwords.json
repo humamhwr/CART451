@@ -1,0 +1,97 @@
+[
+    {
+      "Phrase": "guys",
+      "Alternatives (comma-separated)": "team, friends, folks, everyone, y'all",
+      "Response (if custom)": "Gendered terms can perpetuate non-inclusive work environments. Consider using: team, friends, folks, everyone, y'all"
+    },
+    {
+      "Phrase": "girls",
+      "Alternatives (comma-separated)": "team, friends, folks, everyone, y'all",
+      "Response (if custom)": "Gendered terms can perpetuate non-inclusive work environments. Consider using: team, friends, folks, everyone, y'all"
+    },
+    {
+      "Phrase": "master branch",
+      "Alternatives (comma-separated)": "main branch",
+      "Response (if custom)": "Some people might not be comfortable with 'Master branch'. <https://github.com/github/renaming|Refer to these guides from GitHub and GitLab which outline how to switch your master to main branch>"
+    },
+    {
+      "Phrase": "blacklist",
+      "Alternatives (comma-separated)": "denylist, blocklist",
+      "Response (if custom)": ""
+    },
+    {
+      "Phrase": "blacklisted",
+      "Alternatives (comma-separated)": "denylist, blocklist",
+      "Response (if custom)": ""
+    },
+    {
+      "Phrase": "whitelist",
+      "Alternatives (comma-separated)": "allowlist",
+      "Response (if custom)": ""
+    },
+    {
+      "Phrase": "Man Made ",
+      "Alternatives (comma-separated)": "Machine Made, Artificial",
+      "Response (if custom)": "Gendered terms can perpetuate non-inclusive work environments. Consider using: Machine Made, Artificial"
+    },
+    {
+      "Phrase": "biological man",
+      "Alternatives (comma-separated)": "Cisgender",
+      "Response (if custom)": "Gendered terms can perpetuate non-inclusive work environments. Consider using: Cisgender"
+    },
+    {
+      "Phrase": "biological woman",
+      "Alternatives (comma-separated)": "Cisgender",
+      "Response (if custom)": "Gendered terms can perpetuate non-inclusive work environments. Consider using: Cisgender"
+    },
+    {
+      "Phrase": "Transgendered",
+      "Alternatives (comma-separated)": "Trans/Transgender,",
+      "Response (if custom)": ""
+    },
+    {
+      "Phrase": "preferred pronouns ",
+      "Alternatives (comma-separated)": "Personal Pronouns",
+      "Response (if custom)": ""
+    },
+    {
+      "Phrase": "special rights ",
+      "Alternatives (comma-separated)": "equal rights",
+      "Response (if custom)": ""
+    },
+    {
+      "Phrase": "transsexual ",
+      "Alternatives (comma-separated)": "trans, transgender",
+      "Response (if custom)": ""
+    },
+    {
+      "Phrase": "Canada’s Indigenous Peoples",
+      "Alternatives (comma-separated)": "Indigenous Peoples in Canada",
+      "Response (if custom)": ""
+    },
+    {
+      "Phrase": "Aboriginal",
+      "Alternatives (comma-separated)": "Indigenous Peoples, First Nations, Métis, Inuk (Inuit is plural)",
+      "Response (if custom)": "Colonial references such as “Indian” or “Amerindian” should be avoided when referring to Indigenous Peoples. Consider using: Indigenous Peoples, First Nations, Métis, Inuk (Inuit is plural)"
+    },
+    {
+      "Phrase": "Native",
+      "Alternatives (comma-separated)": "Indigenous Peoples, First Nations, Métis, Inuk (Inuit is plural)",
+      "Response (if custom)": "Colonial references such as “Indian” or “Amerindian” should be avoided when referring to Indigenous Peoples. Consider using: Indigenous Peoples, First Nations, Métis, Inuk (Inuit is plural)"
+    },
+    {
+      "Phrase": "autistic",
+      "Alternatives (comma-separated)": "Person with autism",
+      "Response (if custom)": ""
+    },
+    {
+      "Phrase": "disabled person",
+      "Alternatives (comma-separated)": "Person with disability",
+      "Response (if custom)": ""
+    },
+    {
+      "Phrase": "elderly",
+      "Alternatives (comma-separated)": "older",
+      "Response (if custom)": "Avoid referencing age, race, or ethnicity unless relevant. If it is, refer to age, race, or ethnicity as adjectives instead of nouns. Consider using: Older people"
+    }
+   ]
